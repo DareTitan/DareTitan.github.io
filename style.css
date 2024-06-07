@@ -45,6 +45,13 @@ nav ul li a.active {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 600px) {
+    .container {
+        width: 95%; /* Further reduce width on very small screens */
+        margin: 20px auto;
+    }
+}
+
 h1 {
     text-align: center;
     color: #fff; /* Adjusted text color */
@@ -75,10 +82,6 @@ h1 {
 }
 
 .Project1Video {
-    height: 300px;
-    width:500px;
-    margin: 20px auto;
-
     width: 100%;
     height: auto;
     margin: 20px 0; /* Adjusted margin for better spacing */
@@ -86,7 +89,6 @@ h1 {
     background-color: #222;
     border-radius: 10px;
     border: 1px solid #ccc;
-
 }
 
 

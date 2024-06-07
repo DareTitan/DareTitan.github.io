@@ -45,6 +45,13 @@ nav ul li a.active {
     border: 1px solid #ccc;
 }
 
+@media (max-width: 600px) {
+    .container {
+        width: 95%; /* Further reduce width on very small screens */
+        margin: 20px auto;
+    }
+}
+
 
 .container {
     max-width: 600px;
