@@ -37,11 +37,14 @@ nav ul li a.active {
 }
 
 .Portrait {
-    height: 600px;
-    width: 500px;
-    margin: 50px;
-
+    width: 100%;
+    height: auto;
+    margin: 20px 0; /* Adjusted margin for better spacing */
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #ccc;
 }
+
 
 .container {
     max-width: 600px;

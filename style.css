@@ -79,13 +79,14 @@ h1 {
     width:500px;
     margin: 20px auto;
 
+    width: 100%;
+    height: auto;
+    margin: 20px 0; /* Adjusted margin for better spacing */
     display: block;
-    text-decoration: none;
-    color: #ffffff; /* Adjusted text color */
     background-color: #222;
-    padding: 0px;
     border-radius: 10px;
     border: 1px solid #ccc;
+
 }
 
 
