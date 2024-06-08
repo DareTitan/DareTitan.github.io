@@ -67,12 +67,9 @@ h2 {
     margin-top: 20px;
 }
 
-.contact-info p {
-    margin-bottom: 10px;
-}
-
 .contact-info p,
 .contact-info a {
+    margin-bottom: 10px;
     display: block;
     text-decoration: none;
     color: #ffffff; /* Adjusted text color */
@@ -82,16 +79,20 @@ h2 {
     border: 1px solid #ccc;
 }
 
-.contact-info p a:hover,
-.contact-info p:hover,
-.contact-info a:hover {
-    background-color: #777; /* Adjusted hover background color */
+.contact-info a {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Align items vertically */
 }
 
 .contact-info a img {
     width: 30px; /* Adjust image width */
     height: 30px; /* Adjust image height */
     margin-right: 10px; /* Add space between image and text */
+}
+
+.contact-info p:hover,
+.contact-info a:hover {
+    background-color: #777; /* Adjusted hover background color */
 }
 
 .PaymentMethods {
@@ -104,6 +105,12 @@ h2 {
     background-color: #555; /* Adjusted background color */
     border: 1px solid #ccc;
 }
+
+#PaymentHeader {
+    text-align: center;
+    color: white;
+}
+
 
 #PaymentHeader {
     text-align: center;
